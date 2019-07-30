@@ -2,4 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/nelsvtfn/public_html
+    - rm -r /home/nelsvtfn/public_html/*
     - /bin/cp -r * $DEPLOYPATH
